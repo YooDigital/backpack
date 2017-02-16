@@ -8,8 +8,11 @@
 
     <!-- elFinder CSS (REQUIRED) -->
     <link rel="stylesheet" type="text/css" href="<?= asset($dir.'/css/elfinder.min.css') ?>">
-    <!-- <link rel="stylesheet" type="text/css" href="<?= asset($dir.'/css/theme.css') ?>"> -->
-    <link rel="stylesheet" type="text/css" href="<?= asset('vendor/backpack/elfinder/elfinder.backpack.theme.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= asset($dir.'/css/theme.css') ?>">
+    
+
+    <link rel="stylesheet" type="text/css" href="<?= asset('vendor/backpack/windows10/css/theme.css') ?>">
+
 
     <!-- elFinder JS (REQUIRED) -->
     <script src="<?= asset($dir.'/js/elfinder.min.js') ?>"></script>
